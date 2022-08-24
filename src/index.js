@@ -13,8 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <h1 style={main}>Hello World</h1>
-    <p>I am an {first}</p>
-    <p>{second}</p>
+    <p>{`I am an ${first} ${second}`}</p>
   
   </>
   
