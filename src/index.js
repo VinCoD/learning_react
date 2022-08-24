@@ -1,21 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './Header'
-import User from './User'
-
-
-const first = "Expert"
-const second = "Developer"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <User name="John" expertise = "Frontend Developer"/>
-  <User name="Vincent" expertise = "Fullstack Developer"/>
-  <User name="Vincent" expertise = "Backend Developer"/>
-  
 
-      
   </>
   
 );
