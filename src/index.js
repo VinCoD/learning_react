@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './Header'
 
-const main = {
-  color: "white",
-  background: "green"
-}
 
 const first = "Expert"
 const second = "Developer"
@@ -12,7 +9,8 @@ const second = "Developer"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <h1 style={main}>Hello World</h1>
+  <Header/>
+    <h1>Hello World</h1>
     <p>{`I am an ${first} ${second}`}</p>
   
   </>
