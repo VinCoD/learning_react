@@ -11,6 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <User name="John" expertise = "Frontend Developer"/>
+  <User name="Vincent" expertise = "Fullstack Developer"/>
+  <User name="Vincent" expertise = "Backend Developer"/>
   
 
       
