@@ -10,9 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <Header/>
-    <h1>Hello World</h1>
-    <p>{`I am an ${first} ${second}`}</p>
-  
+      
   </>
   
 );
