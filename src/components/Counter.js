@@ -1,8 +1,15 @@
 import React from 'react'
+import '../Counter.css'
 
 function Counter() {
   return (
-    <div>Counter</div>
+    <>
+    <div className='counter_parent'>
+      <h3>Counter</h3>
+      <button>0</button>
+    </div>
+    
+    </>
   )
 }
 
